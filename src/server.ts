@@ -5,7 +5,7 @@ import cors from 'cors';
 import router from './routes/locationRoutes';
 const app = expess();
 const corsOptions = {
-    origin: ['http://localhost:3000', 'https://track-location-puce.vercel.app/'],
+    origin: ['http://localhost:3000', 'https://track-location-puce.vercel.app'],
 }
 app.use(expess.json());
 app.use(cors(corsOptions));
